@@ -10,15 +10,7 @@
     "outDir": "dist/ts",
     "baseUrl": "./",
     "rootDir": "./",
-    "experimentalDecorators": true,
-    "paths": {
-      "slim-js": [
-        "node_modules/slim-js/dist"
-      ]
-    },
-    "typeRoots": [
-        "node_modules/slim-js/dist"
-    ]
+    "experimentalDecorators": true
   },
   "include": [
     "src/**/*"
