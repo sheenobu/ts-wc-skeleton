@@ -1,0 +1,24 @@
+{
+  "name": "ts-wc-skeleton",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "rollup": "^2.74.1",
+    "terser": "^5.13.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.6.0"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -fr dist",
+    "build": "rollup -c",
+    "server": "caddy file-server -listen 'localhost:8080'"
+  }
+}

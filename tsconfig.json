@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "esModuleInterop": false,
+    "outDir": "dist/ts",
+    "baseUrl": "./",
+    "rootDir": "./",
+    "experimentalDecorators": true,
+    "paths": {
+      "slim-js": [
+        "node_modules/slim-js/dist"
+      ]
+    },
+    "typeRoots": [
+        "node_modules/slim-js/dist"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
